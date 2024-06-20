@@ -1,0 +1,503 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+body {
+    color: rgb(85, 85, 85);
+    font-family: "Lucida Grande", Verdana, Lucida, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.7;
+    text-align: center;
+    background-image: url(../images/back.jpg);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+
+.head {
+    width: 1200px;
+    height: 220px;
+    margin: 0 auto;
+    background-color: #fdfeff;
+}
+
+.top1 {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.top1 span {
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.top2 {
+    width: 100%;
+    height: 60px;
+}
+.top2 img {
+    width: 10%;
+    height: auto;
+    top: -13px;
+    left: -510px;
+    position:relative;
+}
+
+.top2 h1{
+    position:relative;
+    left: -250px;
+    top: -65px; 
+    color: #3370b5;
+    font-size: 240%;
+}
+.sousuo {
+    float: right;
+    margin-top: -120px;
+}
+
+.sousuo input {
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.sousuo button {
+    width: 80px;
+    height: 30px;
+    margin-right: 60px;
+}
+
+.banner {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top3 {
+    width: 100%;
+    height: 50px;
+    background-color: #3370b5;
+    color: #fff;
+    margin-top: 56px;
+  justify-content: space-around;
+  display: flex;
+}
+
+ul {
+    list-style: none;
+}
+.top3 ul li {
+    width: 100px;
+    border-right: 1px dashed #eee;
+    line-height: 50px;
+    color: #fff;
+    float: left;
+   
+}
+.top3 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 120%;
+}
+.top3 ul li a:hover {
+    text-decoration: underline;
+    color: #666;
+  }
+.top3 ul li:hover {
+    background-color: #e7d749f7;
+    color: #666;
+}
+
+.top3 li{
+    position: relative; 
+}
+/* 二级导航默认隐藏 */
+.top5{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #3370b5;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1002;
+    top: 100%; /* 确保二级导航显示在主导航项的正下方 */
+  }
+  
+  .top5 li {
+    float: none;
+  }
+  
+  /* 鼠标悬停时显示二级导航 */
+  .top4:hover .top5 {
+    display: block;
+  }
+
+  .breadcrumbs {
+    font-size: 0.9em; /* 面包屑字体大小 */
+    padding: 8px 15px; /* 内边距 */
+    background-color: #f5f5f5; /* 背景颜色 */
+    border-radius: 3px; /* 边框圆角 */
+    left: 100px;
+    text-align: center;
+  }
+  
+  .breadcrumbs ul {
+    list-style: none; /* 去除列表项默认样式 */
+    padding: 0;
+    margin: 0;
+    display: flex; /* 使用Flex布局 */
+  }
+  
+  .breadcrumbs li {
+    margin-right: 5px; /* 列表项之间的间距 */
+  }
+  
+  .breadcrumbs a {
+    text-decoration: none; /* 去除链接下划线 */
+    color: #0275d8; /* 链接颜色 */
+  }
+  
+  .breadcrumbs li:last-child {
+    font-weight: bold; /* 当前页面加粗显示 */
+    color: #333; /* 当前页面颜色 */
+  }
+
+.mid {
+    width: 1200px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.midne {
+    height: 850px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+.midnddd {
+    height: 1150px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+.midleft {
+    width: 700px;
+    height: 240px;
+    float: left;
+}
+
+.title {
+    width: 98%;
+    height: 30px;
+    background-color: #3370b5;
+    border-bottom: 1px solid #fff;
+    padding: 5px 1%;
+}
+
+.tname {
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tmore {
+    display: inline-block;
+    float: right;
+    line-height: 30px;
+}
+.tmore a{
+    color: #fff;
+}
+
+
+.right {
+    display: inline-block;
+    float: right;
+}
+
+.midright {
+    width: 450px;
+    margin: 0 25px;
+    float: left;
+    text-align: left;
+}
+
+.about {
+    width: 1200px;
+    height: 1170px;
+    line-height: 35px;
+    margin: 20px auto;
+}
+
+.about img {
+    margin: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.top3 ul a {
+    color: #fff;
+}
+
+.new2 ul {
+    float: left;
+    width: 440px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.new2 ul li {
+    width: 100%;
+}
+
+.mid2 {
+    width: 1200px;
+    height: 270px;
+    margin: 0 auto;
+}
+
+.midpart {
+    width: 580px;
+    height: 240px;
+    border: 1px solid #eee;
+    float: left;
+    margin-right: 18px;
+}
+
+.foot {
+    width: 1400px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #3370b5;
+    color: #fff;
+    margin: 0 auto;
+}
+
+
+
+/* 容器样式，用于包裹副导航和内容 */
+.container {
+    overflow: auto; /* 确保内容不会溢出 */
+  }
+  
+  /* 副导航样式 */
+  .sidebar {
+    float: left; /* 将副导航浮动到左侧 */
+    width: 200px; /* 副导航的宽度 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    padding: 17px; /* 内边距 */
+    height: calc(10vh - 15px); /* 副导航高度，减去上下内边距 */
+    box-sizing: border-box; /* 边框计算在宽度内 */
+    display: flex;
+    flex-direction: column; /* 设置为列布局 */
+  }
+  
+  
+  /* 内容区域样式 */
+  .content {
+    margin-left: 150px; /* 内容区域左边距，等于副导航宽度加上其右边框宽度 */
+    padding: 5px; /* 内边距 */
+    overflow: hidden; /* 清除浮动 */
+    display: flex;
+    flex-direction: row; /* 设置为列布局 */
+    margin-top: 0px;
+    background-color: #eee;
+    width: 1130px;
+  }
+  /* 清除浮动 */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+.fu a:hover {
+    text-decoration: underline;
+    color: #666;
+  }
+.fu :hover {
+    background-color: #e7d749f7;
+    color: #666;
+}
+.fu a{
+    font-size: 120%;
+    text-decoration: none;
+    color: #3370b5;
+}
+  .fu {
+    display: flex;
+    flex-direction: column; /* 纵向排列 */
+    float: left;
+    width: 15%;
+    margin-left: 10px;
+  }
+  
+  .sidebar {
+    margin-bottom: 0px; /* 区块之间的间距 */
+    /* 其他样式，如宽度、背景色等 */
+  }
+
+
+
+.sy-tz {
+    width: 90%;
+    height: 800px;
+    padding: 10px 5%;
+    text-align: left;
+}
+
+.sy-de {
+    height: 1100px;
+}
+
+.tz1 {
+    width: 100%;
+    margin-top: 60px;
+    float: left;
+}
+
+.tz1 h2 {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #3370b5;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tz2 {
+    margin-left: 0%;
+}
+
+.page {
+    margin-top: 20px;
+}
+
+.page span {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.pp {
+    width: 40px;
+    height: 25px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.tzz p {
+    text-indent: 50px;
+}
+
+.big {
+    font-size: 20px;
+    color: #2360ad;
+    text-indent: 30px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.kleft, .kright {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 黑体;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    z-index: 999;
+}
+
+.kright {
+    right: 5px;
+    left: auto;
+}
+
+/* 登录页面 */
+
+.input_part {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #E9F7FA;
+}
+
+h5 {
+    text-align: center;
+    font-family: "SongTi";
+    color: #7092BE;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.part {
+    width: 80%;
+    float: left;
+    margin: 10px auto;
+    height: 70px;
+}
+
+.part span {
+    display: inline-block;
+    width: 100px;
+    margin-left: 300px;
+    float: left;
+}
+
+.part input {
+    width: 380px;
+    height: 30px;
+    float: left;
+}
+
+button {
+    width: 240px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    background-color: rgb(10, 129, 168);
+}
+
+.first {
+    padding-top: 50px;
+}
